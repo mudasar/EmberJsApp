@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Pos.Core.Enums" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Pos.Core.Enums" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="UserInRole">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Administrator" />
+      <xs:enumeration value="Operator" />
+      <xs:enumeration value="Customer" />
+      <xs:enumeration value="Dispatcher" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="UserInRole" nillable="true" type="tns:UserInRole" />
+</xs:schema>

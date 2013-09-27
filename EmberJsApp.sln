@@ -22,6 +22,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pos.Infrastructure.Services.Tests", "Pos.Infrastructure.Services.Tests\Pos.Infrastructure.Services.Tests.csproj", "{0EB6E0CC-5865-4E21-A7E1-1D415C2326D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pos.UI.WinClient", "Pos.UI.WinClient\Pos.UI.WinClient.csproj", "{33211DDB-A2C5-44CA-90CF-ABE94095A0A8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{80022ECB-3EA7-4C90-B608-2FC4FCC33EB0} = {80022ECB-3EA7-4C90-B608-2FC4FCC33EB0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pos.Infrastructure.WebServices", "Pos.Infrastructure.WebServices\Pos.Infrastructure.WebServices.csproj", "{80022ECB-3EA7-4C90-B608-2FC4FCC33EB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{60AF476D-D0D9-4D1D-BFCE-F60EB8512E2F}"
+	ProjectSection(SolutionItems) = preProject
+		Tasks.txt = Tasks.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +63,10 @@ Global
 		{33211DDB-A2C5-44CA-90CF-ABE94095A0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33211DDB-A2C5-44CA-90CF-ABE94095A0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33211DDB-A2C5-44CA-90CF-ABE94095A0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80022ECB-3EA7-4C90-B608-2FC4FCC33EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80022ECB-3EA7-4C90-B608-2FC4FCC33EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80022ECB-3EA7-4C90-B608-2FC4FCC33EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80022ECB-3EA7-4C90-B608-2FC4FCC33EB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +77,7 @@ Global
 		{3DDE5684-83C9-4EC9-A2B5-A0A1FD040544} = {77CFBD42-AF02-41C9-B2CE-DE3E5E3272D1}
 		{404B415E-98F4-4E4D-AE28-8FCDEA9761AD} = {77CFBD42-AF02-41C9-B2CE-DE3E5E3272D1}
 		{D3803CAA-1061-4613-828C-F49B82956C3D} = {77CFBD42-AF02-41C9-B2CE-DE3E5E3272D1}
+		{80022ECB-3EA7-4C90-B608-2FC4FCC33EB0} = {77CFBD42-AF02-41C9-B2CE-DE3E5E3272D1}
 		{33211DDB-A2C5-44CA-90CF-ABE94095A0A8} = {3BA0613C-F5E2-47F5-AB0D-5A775A312ED9}
 		{0EB6E0CC-5865-4E21-A7E1-1D415C2326D3} = {D3803CAA-1061-4613-828C-F49B82956C3D}
 	EndGlobalSection

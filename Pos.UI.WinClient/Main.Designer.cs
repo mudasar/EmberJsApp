@@ -73,6 +73,7 @@
             this.logoutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.logoutToolStripMenuItem.Text = "&Logout";
             this.logoutToolStripMenuItem.Visible = false;
+            this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -93,14 +94,14 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // topicsToolStripMenuItem
             // 
             this.topicsToolStripMenuItem.Name = "topicsToolStripMenuItem";
-            this.topicsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.topicsToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.topicsToolStripMenuItem.Text = "&Topics";
             // 
             // Main
